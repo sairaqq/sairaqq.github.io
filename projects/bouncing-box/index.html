@@ -17,7 +17,7 @@
 			position: absolute;
 			top: 100px;
 			/* Change me! */
-			left: 0px;
+			left: 200px;
 		}
 
 		.board {
@@ -66,7 +66,7 @@
 			//////////////////////////////////////////////////////////////////
 
 			// TODO 2 - Variable declarations 
-
+          var positionx = 0;
 
 
 			/* 
@@ -75,8 +75,9 @@
 			turn it around! 
 			*/
 			function update() {
-
-
+                //increase position  by 10
+            positionX=positionX + 10;
+			moveBoxTo(positionX);
 			};
 
 			/* 
